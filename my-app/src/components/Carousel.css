@@ -1,0 +1,36 @@
+.carousel_container {
+    position: absolute;
+    top: 15rem;
+    left:45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    
+  }
+  
+.carousel_content {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.carousel_image {
+   
+    width: 60%; 
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  .prev_button{
+    font-family: "Brush Script MT", cursive;
+    border: 1rem;
+    padding: 1rem;
+    border-radius: 15rem;
+  }
+  .next_button{
+    font-family: "Brush Script MT", cursive;
+
+    border: 1rem;
+    padding: 1rem;
+    border-radius: 15rem;
+  }
